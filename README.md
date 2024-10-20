@@ -1,18 +1,39 @@
-## Getting Started
+## Boa tarde, Bárbara
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Instala primeiro o JDK do java 
+https://download.oracle.com/java/23/latest/jdk-23_windows-x64_bin.exe (sha256)
 
-## Folder Structure
+Depois voce tem que ir em variáveis de ambiente:
+- Adicione uma variavel de ambiente chamada "JAVA_HOME" e cole o caminho do jdk, 
+por exemplo: C:\Program Files\Java\jdk-17\bin
 
-The workspace contains two folders by default, where:
+- Depois voce tem que adicionar o caminho bin na variavel "Path", que normalmente ja tem alguma coisa.
+por exemplo: C:\Program Files\Java\jdk-17\bin
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Depois voce abre o terminal e coloca esse comando:
+java -version
+ ou 
+java --version
+(nao lembro mt bem rsrs)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## VS CODE
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+No vs code voce tem que baixar uma extensao chamada Extension Pack for Java, é da microsoft.
+Baixa tudo desse pacote.
 
-## Dependency Management
+- Pressione Ctrl+Shift+P para abrir a paleta de comandos.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+= Digite Java: Create Java Project e selecione essa opção.
+
+- Escolha o tipo de projeto: Sem ferramentas de build
+
+Escolha o diretório onde deseja salvar o projeto.
+
+
+## Git pull
+Depois de ter feito isso vc tem que fazer um git pull no repositorio que voce compartilhou comigo
+
+Se quiser fazer sozinha td bem mas tb posso te ajudar
+
+
+## tmj
