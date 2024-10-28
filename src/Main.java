@@ -1,3 +1,4 @@
+import adapter.SistemaExternoAdapter;
 import builder.MedicoBuilder;
 import builder.PacienteBuilder;
 import models.Medico;
@@ -7,6 +8,7 @@ import singleton.Hospital;
 public class Main {
     public static void main(String[] args) {
         Hospital hospital = Hospital.getInstance();
+        SistemaExternoAdapter sistemaExternoAdapter = new SistemaExternoAdapter();
 
         Paciente paciente = new PacienteBuilder()
                 .setNome("João Silva")
@@ -15,6 +17,7 @@ public class Main {
                 .build();
 
         hospital.addPaciente(paciente);
+        sistemaExternoAdapter.registrarPacienteNoSistemaExterno(paciente);
 
         Medico medico = new MedicoBuilder()
                 .setNome("Dra. Maria Santos")
